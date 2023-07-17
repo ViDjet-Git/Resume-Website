@@ -1,0 +1,11 @@
+li {
+    list-style-type: none;
+}
+
+#point {
+	cursor: pointer;
+}
+
+.nav-content {
+	background-color: rgb(255, 225, 76);
+}
