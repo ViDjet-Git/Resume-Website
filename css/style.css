@@ -9,3 +9,34 @@ li {
 .nav-content {
 	background-color: rgb(255, 225, 76);
 }
+
+.main-content {
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.mx-6 {
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+@media(min-width: 1400px) {
+	.mx-6 {
+		margin-left: 17%;
+		margin-right: 17%;
+	}
+}
+
+@media(min-width: 1200px) and (max-width: 1399.98px) {
+	.mx-6 {
+		margin-left: 15%;
+		margin-right: 15%;
+	}
+}
+
+@media(min-width: 768px) and (max-width: 1199.98px) {
+	.mx-6 {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+}
