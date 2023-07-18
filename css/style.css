@@ -19,6 +19,32 @@
 	list-style-type: "- ";
 }
 
+.instagram {
+	background: #d6249f;
+ 	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+
+.instagram:hover, .telegram:hover, .github:hover {
+	box-shadow: 0px 0px 8px white;
+}
+
+.instagram:active, .telegram:active, .github:active {
+	border-color: black!important;
+	box-shadow: 0px 0px 8px black;
+}
+
+.telegram {
+	background:linear-gradient(120deg, #0088cc, #FFFFFF);
+}
+
+.github:hover, .github:active {
+	background: white!important;
+}
+
+.github {
+	background: white;
+}
+
 .fs-7 {
 	font-size: 0.9rem;
 }
