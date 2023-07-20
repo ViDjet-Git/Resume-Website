@@ -53,6 +53,11 @@
 	padding: 1.3em;
 }
 
+.download {
+	right: 1px!important;
+	width: 5%;
+}
+
 .fs-7 {
 	font-size: 0.9rem;
 }
