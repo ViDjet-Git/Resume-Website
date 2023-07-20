@@ -87,3 +87,26 @@
 		margin-right: 5%;
 	}
 }
+
+@media(min-width: 370px) and (max-width: 768.98px) {
+
+	.font-mobile {
+		font-size: 1.2em!important;
+	}
+
+	.font-mobile-desc {
+		font-size: 0.9em!important;
+	}
+}
+
+@media(max-width: 369.98px) {
+
+	.container-fluid {
+		display: block!important;
+		text-align: center;
+	}
+
+	.mx-6 {
+		margin: 0!important;
+	}
+}
