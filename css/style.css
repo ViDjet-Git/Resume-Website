@@ -1,3 +1,7 @@
+* {
+	font-family: Arial;
+}
+
 .nodots li {
     list-style-type: none;
 }
@@ -43,6 +47,10 @@
 
 .github {
 	background: white;
+}
+
+.btn {
+	padding: 1.3em;
 }
 
 .fs-7 {
